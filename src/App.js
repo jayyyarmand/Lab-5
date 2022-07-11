@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import PostList from './components/PostList';
+import './index.css';
+import PhotosList from './components/PhotosList';
+import PhotosForm from './components/PhotosForm';
 
 function App() {
   return (
     <div className="App">
-      <PostList/>
+      <PhotosList/>
+      
     </div>
   );
 }
